@@ -123,7 +123,7 @@ public class ControllerManager : MonoBehaviour
 
     void CheckAnalog2D()
     {
-        tm3.text = "Asis2D Check\n";
+        tm3.text = "Axis2D Check\n";
         CheckAnalog2DAndOutputText(OVRInput.Axis2D.Any);
         CheckAnalog2DAndOutputText(OVRInput.Axis2D.None);
         CheckAnalog2DAndOutputText(OVRInput.Axis2D.PrimaryThumbstick);
@@ -134,7 +134,7 @@ public class ControllerManager : MonoBehaviour
 
     void CheckAnalog1D()
     {
-        tm2.text = "Asis1D Check\n";
+        tm2.text = "Axis1D Check\n";
         CheckAnalog1DAndOutputText(OVRInput.Axis1D.Any);
         CheckAnalog1DAndOutputText(OVRInput.Axis1D.None);
         CheckAnalog1DAndOutputText(OVRInput.Axis1D.PrimaryHandTrigger);
